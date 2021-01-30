@@ -19,7 +19,7 @@ After successful start of server open web browser and enter http://localhost:808
 ### Method 2
 
 Runs the project as a packaged web application using an embedded Tomcat server,
-without forking the package cycle (for details)[https://tomcat.apache.org/maven-plugin-trunk/tomcat7-maven-plugin/plugin-info.html]
+without forking the package cycle ([details](https://tomcat.apache.org/maven-plugin-trunk/tomcat7-maven-plugin/plugin-info.html))
 
 `
 mvn tomcat7:run-war-only
