@@ -16,7 +16,16 @@ Copy the generated "jsf-demo.war" file from target folder to your tomcat webapp 
 
 After successful start of server open web browser and enter http://localhost:8080/jsf-demo/ in URL bar.
 
-### Method 2 (Docker)
+### Method 2
+
+Runs the project as a packaged web application using an embedded Tomcat server,
+without forking the package cycle (for details)[https://tomcat.apache.org/maven-plugin-trunk/tomcat7-maven-plugin/plugin-info.html]
+
+`
+mvn tomcat7:run-war-only
+`
+
+### Method 3 (Docker)
 
 #### Build image
 
